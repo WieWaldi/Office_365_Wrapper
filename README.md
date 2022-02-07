@@ -8,7 +8,8 @@
 <br />
 
 ## Requirements  
-You'll need to have Google Chrome installed. I've no idea if Chromium works as well.
+You'll need to have Google Chrome installed. I've no idea if Chromium or Microsoft
+Edge works as well.
 
 ## Setup
 Simply run `make`.
