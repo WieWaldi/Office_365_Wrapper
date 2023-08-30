@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#
+# +----------------------------------------------------------------------------+
+# | ~/.local/bin/teamspwa                                                      |
+# +----------------------------------------------------------------------------+
+# | Copyright © 2019 Waldemar Schroeer                                         |
+# |                  waldemar.schroeer(at)rz-amper.de                          |
+# +----------------------------------------------------------------------------+
+
+# /bin/google-chrome --app=https://teams.microsoft.com --new-window &
+/usr/bin/microsoft-edge --app=https://teams.microsoft.com --new-window &
+
+exit 0 
