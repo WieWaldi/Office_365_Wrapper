@@ -18,9 +18,12 @@ install:
 	@chmod 755 ${PREFIX}/bin/excel
 	@cp -f outlook ${PREFIX}/bin
 	@chmod 755 ${PREFIX}/bin/outlook
+	@cp -f teamspwa ${PREFIX}/bin
+	@chmod 755 ${PREFIX}/bin/teamspwa
 
 uninstall:
 	@echo "Removing executable file from ${PREFIX}/bin"
 	@rm -f ${PREFIX}/bin/word
 	@rm -f ${PREFIX}/bin/excel
 	@rm -f ${PREFIX}/bin/outlook
+	@rm -f ${PREFIX}/bin/teamspwa
