@@ -20,6 +20,10 @@ install:
 	@chmod 755 ${PREFIX}/bin/outlook
 	@cp -f teamspwa ${PREFIX}/bin
 	@chmod 755 ${PREFIX}/bin/teamspwa
+	@cp -f signal ${PREFIX}/bin
+	@chmod 755 ${PREFIX}/bin/signal
+	@cp -f telegram ${PREFIX}/bin
+	@chmod 755 ${PREFIX}/bin/telegram
 
 uninstall:
 	@echo "Removing executable file from ${PREFIX}/bin"
@@ -27,3 +31,5 @@ uninstall:
 	@rm -f ${PREFIX}/bin/excel
 	@rm -f ${PREFIX}/bin/outlook
 	@rm -f ${PREFIX}/bin/teamspwa
+	@rm -f ${PREFIX}/bin/signal
+	@rm -f ${PREFIX}/bin/telegram
